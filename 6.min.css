@@ -60,24 +60,23 @@
 
 .section {
     grid-column: 1 / span 2;
-    font-family: 'Poppins';
+}
+
+#jobs-table tr.section td {
+    text-transform: lowercase;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 120%;
     letter-spacing: -1px;
     font-feature-settings: 'ss02'on;
-    text-transform: capitalize;
     color: #3859FF;
 }
 
-#jobs-table tr.section td {
-        text-transform: lowercase;
-}
-
 #jobs-table tr.section td:first-letter {
-        text-transform: uppercase;
-      }
+    text-transform: uppercase;
+}
 
 #jobs-table-body {
     display: grid;
