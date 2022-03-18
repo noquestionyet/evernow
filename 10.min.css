@@ -117,6 +117,24 @@
     font-size: 16px;
 }
 
+#search-text::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#search-text:-moz-placeholder {
+    /* Firefox 18- */
+    color: transparent;
+}
+
+#search-text::-moz-placeholder {
+    /* Firefox 19+ */
+    color: transparent;
+}
+
+#search-text:-ms-input-placeholder {
+    color: transparent;
+}
+
 .search-reset {
     display: none;
 }
