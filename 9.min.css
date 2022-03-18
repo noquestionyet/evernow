@@ -10,12 +10,14 @@
 
 #jobs-table tr.clickable:hover {
     background: #FFFFFF;
-    border: 1px solid #3859FF;
+    box-shadow: inset 0 0 0 1px #3859FF;
+    transition: box-shadow .3s;
 }
 
 #jobs-table tr.clickable:focus {
     background: #FFFFFF;
-    border: 1px solid #3859FF;
+    box-shadow: inset 0 0 0 1px #3859FF;
+    transition: box-shadow .3s;
 }
 
 .job.clickable::after {
@@ -104,10 +106,15 @@
 }
 
 #search-text {
-    width: 100%;
+    width: 96%;
     background-image: url(https://assets.website-files.com/62039cc…/6217884…_Search%20Icon%20Blue.svg);
     background-position: 16px 50%;
     background-size: auto;
+    border: 1px solid #3859ff;
+    border-radius: 128px;
+    background-color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
 }
 
 .search-reset {
@@ -116,6 +123,11 @@
 
 #search-label {
     display: none;
+}
+
+#header {
+    padding: 0px;
+    margin-bottom: 64px;
 }
 
 #social-sharing-bottom {
