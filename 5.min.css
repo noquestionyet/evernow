@@ -75,8 +75,7 @@
         text-transform: lowercase;
 }
 
-#jobs-table tr.section td:first-letter,
-#jobs-table tr.section td:first-line {
+#jobs-table tr.section td:first-letter {
         text-transform: uppercase;
       }
 
