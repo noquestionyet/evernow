@@ -108,10 +108,14 @@ a:visited {
 
 #jobs-table tbody tr {
     border: none;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1A1A1A;
 }
 
 #jobs-table td {
-    padding: 0px;
     text-align: left;
 }
 
