@@ -1,0 +1,79 @@
+.job.clickable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    background: #FFFFFF;
+}
+
+.job.clickable::after {
+    content: "Learn more";
+    border-top: 1px solid #3859FF;
+    padding-top: 8px;
+    width: 100%;
+    background-image:
+        font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #1A1A1A;
+    background-image: url(https://assets.website-files.com/62039cc91acccd69bbc3274f/62345fce57b3fe2c9c03c1f1_Arrow%20Learn%20More.svg);
+    background-position: 100% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.job-detail-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #3859FF;
+    margin-bottom: 8px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #1A1A1A;
+}
+
+.section {
+    grid-column: 1 / span 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -1px;
+    font-feature-settings: 'ss02'on;
+    text-transform: capitalize;
+    color: #3859FF;
+}
+
+#jobs-table-body {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#search-text {
+    width: 100%;
+    background-image: url(https://assets.website-files.com/62039cc…/6217884…_Search%20Icon%20Blue.svg);
+    background-position: 16px 50%;
+    background-size: auto;
+}
+
+.search-reset {
+    display: none;
+}
+
+#search-label {
+    display: none;
+}
