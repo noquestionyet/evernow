@@ -1,11 +1,16 @@
 .job.clickable {
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     padding: 24px;
     background: #FFFFFF;
     min-height: 240px;
+}
+
+.job.clickable:hover {
+    background: #FFFFFF;
+    border: 1px solid #3859FF;
 }
 
 .job.clickable::after {
@@ -22,6 +27,8 @@
     background-position: 100% 50%;
     background-size: 20px;
     background-repeat: no-repeat;
+    position: absolute;
+    bottom: 24px;
 }
 
 .job-detail-link {
@@ -96,4 +103,15 @@
 
 #search-label {
     display: none;
+}
+
+#social-sharing-bottom {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    #jobs-table-body {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
 }
