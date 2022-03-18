@@ -5,6 +5,7 @@
     align-items: flex-start;
     padding: 24px;
     background: #FFFFFF;
+    min-height: 240px;
 }
 
 .job.clickable::after {
@@ -12,8 +13,8 @@
     border-top: 1px solid #3859FF;
     padding-top: 8px;
     width: 100%;
-    background-image:
-        font-weight: 700;
+    font-family: 'DM Sans';
+    font-weight: 700;
     font-size: 17px;
     line-height: 22px;
     color: #1A1A1A;
@@ -24,6 +25,7 @@
 }
 
 .job-detail-link {
+    font-family: 'DM Sans';
     font-weight: 700;
     font-size: 20px;
     line-height: 160%;
@@ -31,7 +33,17 @@
     margin-bottom: 8px;
 }
 
+.job-detail-link:visited {
+    color: #3859FF;
+}
+
+.job-detail-link:hover {
+    color: #3859FF;
+    text-decoration: none;
+}
+
 .location {
+    font-family: 'DM Sans';
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
@@ -54,13 +66,21 @@
 #jobs-table-body {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
+    grid-auto-rows: auto;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr;
-    grid-template-rows: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+#jobs-table tbody tr {
+    border: none;
+}
+
+#jobs-table td {
+    padding: 0px;
 }
 
 #search-text {
