@@ -23,7 +23,7 @@
     line-height: 22px;
     color: #1A1A1A;
     background-image: url(https://assets.website-files.com/62039cc91acccd69bbc3274f/62345fce57b3fe2c9c03c1f1_Arrow%20Learn%20More.svg);
-    background-position: 100% 50%;
+    background-position: 100% 80%;
     background-size: 20px;
     background-repeat: no-repeat;
     position: absolute;
@@ -70,6 +70,15 @@
     text-transform: capitalize;
     color: #3859FF;
 }
+
+#jobs-table tr.section td {
+        text-transform: lowercase;
+}
+
+#jobs-table tr.section td:first-letter,
+#jobs-table tr.section td:first-line {
+        text-transform: uppercase;
+      }
 
 #jobs-table-body {
     display: grid;
