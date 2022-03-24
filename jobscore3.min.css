@@ -133,9 +133,6 @@ a:visited {
 }
 
 #search-text {
-    background-position: 16px 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
     border: 1px solid #3859ff;
     border-radius: 128px;
     background-color: #fff;
@@ -161,17 +158,26 @@ a:visited {
 
 #search-text::placeholder {
     background-image: url(https://uploads-ssl.webflow.com/62039cc91acccd69bbc3274f/62178844dbbcb6ec3813037a_Search%20Icon%20Blue.svg);
+    background-position: 16px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
     color: transparent;
 }
 
 #search-text::-webkit-input-placeholder {
     background-image: url(https://uploads-ssl.webflow.com/62039cc91acccd69bbc3274f/62178844dbbcb6ec3813037a_Search%20Icon%20Blue.svg);
+    background-position: 16px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
     color: transparent;
 }
 
 #search-text:-moz-placeholder {
     /* Firefox 18- */
     background-image: url(https://uploads-ssl.webflow.com/62039cc91acccd69bbc3274f/62178844dbbcb6ec3813037a_Search%20Icon%20Blue.svg);
+    background-position: 16px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
     color: transparent;
 }
 
@@ -179,12 +185,18 @@ a:visited {
     /* Firefox 19+ */
     color: transparent;
     background-image: url(https://uploads-ssl.webflow.com/62039cc91acccd69bbc3274f/62178844dbbcb6ec3813037a_Search%20Icon%20Blue.svg);
+    background-position: 16px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
 
 }
 
 #search-text:-ms-input-placeholder {
     color: transparent;
     background-image: url(https://uploads-ssl.webflow.com/62039cc91acccd69bbc3274f/62178844dbbcb6ec3813037a_Search%20Icon%20Blue.svg);
+    background-position: 16px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
 
 }
 
