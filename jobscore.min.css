@@ -5,6 +5,20 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+  font-family: 'DM Sans';
+  src: url('https://assets.website-files.com/62039cc91acccd69bbc3274f/6203bf19f9b66b65fa03e9c4_dm-sans-v10-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('https://assets.website-files.com/62039cc91acccd69bbc3274f/6203bf19af4eef42f4ff4ba3_dm-sans-v10-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 .job.clickable {
     display: flex;
